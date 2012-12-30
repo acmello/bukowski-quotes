@@ -27,7 +27,7 @@ canvas {
 			transition: opacity 300ms; 
 
 	background-color: #AA1111;
-	height: 150px;
+	height: 165px;
 	position: fixed;
 	padding-left: 5px;
 	width: 630px;
@@ -83,12 +83,13 @@ canvas {
 	margin-right: 30px;	
 }
 
+
 #info-tab:hover #description {
 	margin: 5px 100px 5px 5px;
 	text-align: justify;  
 	font-size: 15px;
 	width: 300px;
-	position: absolute;
+	position: relative;
 	float: left;
 	left: 600px;
 	-webkit-transition: left 220ms;
@@ -96,6 +97,18 @@ canvas {
     -o-transition: left 220ms;
     -ms-trantion: left 220ms;
     transition: left 220ms;
+}
+
+#info-tab:hover #fb-button {
+	position: relative;
+	left: 200px;
+	top: 135px;
+}
+
+#info-tab:hover #twitter-button {
+	position: relative;
+	left: 300px;
+	top: 115px;
 }
 
 a {
