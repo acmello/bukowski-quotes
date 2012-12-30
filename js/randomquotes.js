@@ -41,11 +41,11 @@
 	
 	function draw(){
 		if(mouse.down){
-			word = textArray[index] == undefined ? "Charles Bukowski" 
+			word = textArray[index] == undefined ? "Charles Bukowsky" 
 				: textArray[index]; 
 			ctx.fillStyle = "white";
 			
-			if( word !== 'Charles Bukowski' ){
+			if( word !== 'Charles Bukowsky' ){
 				ctx.font = 10+Math.round(Math.random()*20) + 'pt Georgia';
 				ctx.fillText(word, mouse.x + 10, mouse.y + 10);
 				index++;
